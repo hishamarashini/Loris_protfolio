@@ -84,6 +84,7 @@ body {
     margin-top: 40px;
     flex-direction: column;
     gap: 10px;
+    font-size: 140%;
 }
 a:link, a:visited {
     background-color: #f44336;
