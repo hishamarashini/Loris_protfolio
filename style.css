@@ -83,13 +83,13 @@ body {
     justify-content: center;
     margin-top: 40px;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     font-size: 140%;
 }
 a:link, a:visited {
     background-color: #f44336;
     color: white;
-    padding: 14px 100px;
+    padding: 14px 80px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
