@@ -1,4 +1,5 @@
 body {
+    
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
@@ -81,21 +82,62 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    flex-direction: column;
-    gap: 15px;
     font-size: 140%;
-}
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 80px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    min-width: 50%;
-  }
-  
-  a:hover, a:active {
     background-color: red;
-  }
+    padding: 14px 80px;
+    text-decoration: none;
+    min-width: 50%;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(255, 0, 247);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mokabalat {
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 200%;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    
+}
+
+.con1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tahkikat {
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 200%;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    
+}
+
+.con2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
