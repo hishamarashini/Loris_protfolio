@@ -102,17 +102,6 @@ body {
     gap: 20px;
 }
 
-.mokabalat {
-    display: flex;
-    width: 100%;
-    color: white;
-    font-size: 200%;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-    
-}
-
 .con1 {
     display: flex;
     flex-wrap: wrap;
@@ -120,17 +109,6 @@ body {
     width: 100%;
     gap: 20px;
     justify-content: center;
-}
-
-.tahkikat {
-    display: flex;
-    width: 100%;
-    color: white;
-    font-size: 200%;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-    
 }
 
 .con2 {
