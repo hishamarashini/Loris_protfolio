@@ -108,6 +108,7 @@ body {
     flex-direction: row;
     width: 100%;
     gap: 20px;
+    padding-top: 20px;
     justify-content: center;
 }
 
@@ -117,5 +118,6 @@ body {
     flex-direction: row;
     width: 100%;
     gap: 20px;
+    padding-top: 20px;
     justify-content: center;
 }
