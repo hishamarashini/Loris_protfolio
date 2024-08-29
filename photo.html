@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TV&PHOTOS</title>
+</head>
+<body>
+</div>
+<div class="btn">
+    <p>صور</p>
+</div>
+<div class="con_photo">
+    <div class="img-container">
+        <div class="image"><img src="images/goarg_kordahi.png" alt="Goarge_Kordahi"></div>
+        <div class="image"><img src="images/goarg_kordahi.png" alt="Goarge_Kordahi"></div>
+        <div class="image"><img src="images/goarg_kordahi.png" alt="Goarge_Kordahi"></div>
+        <div class="image"><img src="images/goarg_kordahi.png" alt="Goarge_Kordahi"></div>
+    </div>
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="images/goarg_kordahi.png" alt="goarg_kordahi">
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.img-container img').forEach(image => {
+        image.onclick = () => {
+            document.querySelector('.popup-image').style.display = 'block';
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+        }
+    });
+
+    document.querySelector('.popup-image span').onclick = () => {
+        document.querySelector('.popup-image').style.display = 'none';
+    }
+</script>
+</body>
+</html>
